@@ -15,6 +15,7 @@
 		A501802D1F6ABEED00A58346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A501802B1F6ABEED00A58346 /* LaunchScreen.storyboard */; };
 		A50180381F6ABEED00A58346 /* shareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A50180371F6ABEED00A58346 /* shareTests.m */; };
 		A50180431F6ABEED00A58346 /* shareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A50180421F6ABEED00A58346 /* shareUITests.m */; };
+		A50180521F6ABF7700A58346 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A50180511F6ABF7700A58346 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A501803E1F6ABEED00A58346 /* shareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A50180421F6ABEED00A58346 /* shareUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shareUITests.m; sourceTree = "<group>"; };
 		A50180441F6ABEED00A58346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A50180501F6ABF7700A58346 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A50180511F6ABF7700A58346 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				A50180211F6ABEED00A58346 /* AppDelegate.m */,
 				A50180231F6ABEED00A58346 /* ViewController.h */,
 				A50180241F6ABEED00A58346 /* ViewController.m */,
+				A50180501F6ABF7700A58346 /* Person.h */,
+				A50180511F6ABF7700A58346 /* Person.m */,
 				A50180261F6ABEED00A58346 /* Main.storyboard */,
 				A50180291F6ABEED00A58346 /* Assets.xcassets */,
 				A501802B1F6ABEED00A58346 /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 			files = (
 				A50180251F6ABEED00A58346 /* ViewController.m in Sources */,
 				A50180221F6ABEED00A58346 /* AppDelegate.m in Sources */,
+				A50180521F6ABF7700A58346 /* Person.m in Sources */,
 				A501801F1F6ABEED00A58346 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
